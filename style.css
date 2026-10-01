@@ -1,0 +1,15 @@
+:root { color-scheme: light; font-family: system-ui, sans-serif; color: #25353b; background: #fff; letter-spacing: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; border-top: 6px solid #247c70; }
+main { max-width: 860px; margin: auto; padding: 32px 24px 56px; }
+nav { display: flex; justify-content: flex-end; align-items: center; gap: 24px; min-height: 44px; }
+header { border-bottom: 1px solid #ccd7d8; margin-bottom: 34px; padding: 12px 0 24px; }
+.brand { color: #247c70; font-weight: 700; }
+h1 { font-size: 32px; line-height: 1.25; overflow-wrap: anywhere; }
+h2 { font-size: 22px; line-height: 1.4; margin-top: 32px; }
+p { font-size: 17px; line-height: 1.7; }
+a { color: #08685c; text-underline-offset: 3px; overflow-wrap: anywhere; }
+a:focus-visible { outline: 3px solid #ad6620; outline-offset: 5px; }
+code { font-size: 15px; overflow-wrap: anywhere; }
+footer { margin-top: 40px; border-top: 1px solid #ccd7d8; padding-top: 24px; line-height: 1.8; }
+@media (max-width: 480px) { main { padding: 20px 20px 40px; } h1 { font-size: 28px; } }
